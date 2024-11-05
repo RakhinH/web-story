@@ -1,31 +1,38 @@
 import React, { Component } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Story from "./components/base";
 
 
 const App = () => {
-    const handleClick=() => {
-        // function: to go to next page
-    };
 
-    return ( 
+    return (
         <>
-        <div className=" flex justify-center items-center bg-center w-full h-screen bg-[url('https://iongroup.com/wp-content/uploads/2024/03/The-rise-and-future-of-credit-portfolio-trading.png')]" >
-            <div className="box-decoration-slice bg-gradient-to-r from-indigo-300 to-indigo-900 text-black px-2 w-2/3 flex flex-col items-center">
-                <p>
-                    It is 2008 and and the stockmarket
-                </p>
 
-                <div className=" flex justify-center gap-9 w-fit">
-                    <button className="border-2 border-violet-600 bg-violet-600" type="button" onClick={handleClick}>Option 1</button>
-                    <button className="border-2 border-violet-600 bg-violet-600" type="button" onClick={handleClick}>Option 2</button>
-                </div>
-                
-            </div>             
-        </div>
-        
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={
+                        <div className=" flex justify-center items-center bg-center w-full h-screen bg-[url('https://iongroup.com/wp-content/uploads/2024/03/The-rise-and-future-of-credit-portfolio-trading.png')]" >
+                            <div >
+                                
+
+                                <div className=" flex justify-center gap-9 w-fit p-2 bg-gradient-to-r from-indigo-300 to-indigo-900">
+                                    <Link className="text-3xl " to="/story/first">Start</Link>
+                                </div>
+
+                            </div>
+                        </div>
+                    } />
+                    <Route path="/story/:id" element={<Story />} />
+
+                </Routes>
+            </BrowserRouter>
+
+
+
         </>
-     );
+    );
 }
- 
+
 export default App;
 
 /*
