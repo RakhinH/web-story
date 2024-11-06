@@ -11,10 +11,9 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={
-                        <div className=" flex justify-center items-center bg-center w-full h-screen bg-[url('https://iongroup.com/wp-content/uploads/2024/03/The-rise-and-future-of-credit-portfolio-trading.png')]" >
+                        <div className=" flex justify-center items-center bg-center w-full h-screen bg-[url()]" >
                             <div >
                                 
-
                                 <div className=" flex justify-center gap-9 w-fit p-2 bg-gradient-to-r from-indigo-300 to-indigo-900">
                                     <Link className="text-3xl " to="/story/first">Start</Link>
                                 </div>
