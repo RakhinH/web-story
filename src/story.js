@@ -1,3 +1,20 @@
+// "": {
+//         title: "",
+//         text: "",
+//         image: "",
+//         buttons: [
+//             {
+//                 text: "",
+//                 id: ""
+//             },
+//             {
+//                 text: "",
+//                 id: ""
+//             }
+//         ]
+//     },
+
+
 export const story = {
     "first": {
         text: "It is 2008 and and the stockmarket",
@@ -15,20 +32,39 @@ export const story = {
     },
 
     "tesla": {
-        title: "title 1",
-        text: "text 1",
+        title: "",
+        text: "",
         image: "",
         buttons: [
             {
-                text: "Throw hands with the Don",
-                id: "fight-trump"
+                text: "",
+                id: ""
             },
             {
-                text: "text 1",
-                id: "2"
+                text: "",
+                id: ""
             }
         ]
     },
-    "fight-trump": {}
+
+    "apple": {
+        title: "",
+        text: "",
+        image: "",
+        buttons: [
+            {
+                text: "",
+                id: ""
+            },
+            {
+                text: "",
+                id: ""
+            }
+        ]
+    },
+
+
+
+
 
 }
