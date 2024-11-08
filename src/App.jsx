@@ -16,7 +16,7 @@ const App = () => {
                                 
                                 <div className=" flex justify-center gap-9 w-fit p-2 bg-gradient-to-r from-neutral-100 to-neutral-500 float-left">
                                     <Link className="text-3xl " to="/story/first">Start</Link>
-                                    <Link className="text-3xl " to="">Second</Link>
+                                    <Link className="text-3xl " to="">Options</Link>
                                 </div>
 
                             </div>
