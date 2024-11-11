@@ -17,6 +17,7 @@ const Story = () => {
 
     return ( 
         <>
+        {/* MAKE A NAVBAR RIGHT HERE  */}
         {current && (
             <>
 
@@ -26,7 +27,7 @@ const Story = () => {
              */}
             
             <div className="flex flex-col text-2xl font-sans gap-4 justify-center items-center bg-center w-full h-screen bg-[url('https://iongroup.com/wp-content/uploads/2024/03/The-rise-and-future-of-credit-portfolio-trading.png')]">
-                <div className="flex flex-col rounded-lg gap-4 justify-center items-center box-decoration-slice bg-gradient-to-r from-pink-400 to-indigo-700 text-black px-2 w-45 container-fliud">
+                <div className="flex flex-col font-black rounded-lg gap-4 justify-center items-center box-decoration-slice bg-gradient-to-r from-pink-400 to-indigo-700 text-black px-2 w-45 container-fliud">
                     <p>{current.text}</p>
                 </div>
 
