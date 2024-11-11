@@ -7,8 +7,8 @@
 //                 id: ""
 //             },
 //             {
-//                 text: "",
-//                 id: ""
+//                 text1: "",
+//                 id1: ""
 //             }
 //         ]
 //     },
@@ -24,8 +24,8 @@ export const story = {
                 id: "tesla"
             },
             {
-                text: "Invest in Apple",
-                id: "apple"
+                text1: "Invest in Apple",
+                id1: "apple"
             }
         ]
     },
@@ -39,8 +39,8 @@ export const story = {
                 id: "noacceptTesla"
             },
             {
-                text: "Accept it",
-                id: "acceptTesla"
+                text1: "Accept it",
+                id1: "acceptTesla"
             }
         ]
     },
@@ -54,8 +54,8 @@ export const story = {
                 id: "noacceptApple"
             },
             {
-                text: "Accept it",
-                id: "acceptApple"
+                text1: "Accept it",
+                id1: "acceptApple"
             }
         ]
     },
@@ -69,8 +69,8 @@ export const story = {
                 id: ""
             },
             {
-                text: "",
-                id: ""
+                text1: "",
+                id1: ""
             }
         ]
     },
@@ -84,8 +84,8 @@ export const story = {
                 id: ""
             },
             {
-                text: "",
-                id: ""
+                text1: "",
+                id1: ""
             }
         ]
     },
@@ -100,8 +100,8 @@ export const story = {
                 id: ""
             },
             {
-                text: "",
-                id: ""
+                text1: "",
+                id1: ""
             }
         ]
     },
@@ -115,8 +115,8 @@ export const story = {
                 id: ""
             },
             {
-                text: "",
-                id: ""
+                text1: "",
+                id1: ""
             }
         ]
     },
