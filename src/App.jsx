@@ -11,14 +11,16 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={
-                        <div className=" flex justify-center items-center bg-center w-full h-screen bg-[url(https://i.ebayimg.com/00/s/Nzc1WDEyMjQ=/z/6PAAAOSw93Bhplwj/$_57.JPG?set_id=8800005007)]" >
-                            <div >
+                        <div className="flex justify-center items-center bg-center w-full h-screen bg-[url(https://i.ebayimg.com/00/s/Nzc1WDEyMjQ=/z/6PAAAOSw93Bhplwj/$_57.JPG?set_id=8800005007)]" >
+                            <div className="flex flex-col">
                                 
                                 <div className=" flex justify-center gap-9 w-fit p-2 bg-gradient-to-r from-neutral-100 to-neutral-500 float-left">
                                     <Link className="text-3xl " to="/story/first">Start</Link>
-                                    <Link className="text-3xl " to="">Options</Link>
                                 </div>
 
+                                <div className=" flex justify-center gap-9 w-fit p-2 bg-gradient-to-r from-neutral-100 to-neutral-500 float-left">
+                                    <Link className="text-3xl " to="">Options</Link>
+                                </div>
                             </div>
                         </div>
                     } />
