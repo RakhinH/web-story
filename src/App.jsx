@@ -21,6 +21,10 @@ const App = () => {
                                 <div className="flex flex-col space-y-1 justify-center gap-9 w-fit p-2 bg-gradient-to-r from-neutral-100 to-neutral-500 float-left rounded-lg">
                                     <Link className="text-3xl " to="">Options</Link>
                                 </div>
+
+                                <div className="flex flex-col space-y-1 justify-center gap-9 w-fit p-2 bg-gradient-to-r from-neutral-100 to-neutral-500 float-left rounded-lg">
+                                    <a className="text-3xl" href="https://github.com/RakhinH">GitHub</a>
+                                </div>
                             </div>
                         </div>
                     } />

@@ -1,6 +1,10 @@
 import { Link, useParams } from "react-router-dom";
 import { story } from "../story";
 import { useState, useEffect } from "react";
+// import AudioTag from 'reactjs-audiotag';
+
+// NOTES:
+// + src\assets\tell-me-the-truth-260010.mp3
 
 const Story = () => {
 
@@ -17,6 +21,7 @@ const Story = () => {
 
     return ( 
         <>
+
         {/* MAKE A NAVBAR RIGHT HERE  */}
         {current && (
             <>

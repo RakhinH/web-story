@@ -16,7 +16,7 @@
 
 export const story = {
     "first": {
-        text: "It is 2008 and your in a trading company and you have two major options to invest in, one could lead to your boss gettin angry at u, the other would be a surprise.",
+        text: "It is 2008 and you're in a trading company, you have two major options to invest in, one could lead to your boss getting angry at you, or anything else could happen.",
         image: "https://iongroup.com/wp-content/uploads/2024/03/The-rise-and-future-of-credit-portfolio-trading.png",
         buttons: [
             {
@@ -33,7 +33,7 @@ export const story = {
     
 
     "b": {
-        text: "You invested in apple and 10 years later john pork has arrived at ur door step, he has asked you to do a task. He gives you a piece of chicken as an incentive.  The task that john pork has asked you to do is, to find a skibidi sigma male with 5 gyatt rizz ohio level",
+        text: "You invested in apple and 10 years later John Pork has arrived at ur door step, he has asked you to do a task. He gives you a piece of chicken as an incentive.  The task that john pork has asked you to do is, to find a skibidi sigma male with 5 gyatt rizz ohio level",
         image: "https://i.ytimg.com/vi/9o3HYDqOleM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC8APTklJIGFIR1r64sM5ffTqINog",
         buttons: [
             {
@@ -50,7 +50,6 @@ export const story = {
     
 
     "bad": {
-        // Bad 1
         text: "John pork kills you and Ninja with a low taper fade falls down a cliff and dies. ",
         image: "https://i.ytimg.com/vi/MGs__rwhoEA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDgdfll_saZi9XUZAap2xYxrDN6yA",
         buttons: [
@@ -117,12 +116,12 @@ export const story = {
         image: "https://thumbs.dreamstime.com/b/dumbfounded-7452720.jpg",
         buttons: [
             {
-                text: "",
+                text: "See what happens",
                 id: "true1"
-            },
+            }, 
             {
-                text1: "",
-                id1: ""
+                text1: "Click here",
+                id1: "true1"
             }
         ]
     },
@@ -148,7 +147,7 @@ export const story = {
     
 
     "a2": {
-        text: "You walk through the streets on bristol and go to house 40 on Donald Rd, you find a piece of text saying, i am at access creative college, i think ed sheeran has forced me to play the guitar do yoou playu the guitar to get him back? ",
+        text: "You walk through the streets on bristol and go to house 40 on Donald Rd, you find a piece of text saying, 'i am at access creative college, i think ed sheeran has forced me to play the guitar do you think u could play the guitar to get me back?'. What do you do?",
         image: "https://i.ytimg.com/vi/IQxYKXwFZbM/hqdefault.jpg",
         buttons: [
             {
@@ -165,121 +164,121 @@ export const story = {
     // the different endings are below
 
     "bad": {
-        text: "",
-        image: "",
+        text: "John Pork gets angry and Shrek comes out of his swamp and kills you.",
+        image: "https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22512212/shrek4_disneyscreencaps.com_675.jpg?quality=90&strip=all&crop=44.127604166667,30.392156862745,36.953125,57.96568627451",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "bad1": {
-        text: "",
-        image: "",
+        text: "He gets angry and chases you out town, so keep on running out fear and run into a ditch and starve to death",
+        image: "https://lh3.googleusercontent.com/proxy/pEWhMpW625_TgjfWBeCaaXFdZWSmN3sPgdxLLQDSe-0OS0AZnagaBRUVuADmMItI7sj7QUA98IEl1gXY9GB6UrnMK0A18J5fwRTZ17TdA6vN6b8ENVcG3RjDC_As",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "bad2": {
-        text: "",
-        image: "",
+        text: "his family dies and you feel so much regret that you do sucide. (PLEASE NOTE THAT KILLING YOURSELF IS NOT THE ANSWER AND IF YOU HAVE THOUGHTS OF SUCIDE CALL THIS LINE: 116 123 )",
+        image: "https://mappingignorance.org/app/uploads/2014/06/Freedom-and-the-regret-connection.jpg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "bad3": {
-        text: "",
-        image: "",
+        text: "She goes and says 'i dont know' you say 'I dont think you should not NOT help me.' then she says 'i will kill you' and then you are killed by a bullet. ",
+        image: "https://img.redro.pl/obrazy/pistolety-pistolety-karabiny-maszyny-maszynowe-rewolwery-i-strzelby-z-czarna-szczegolowa-sylwetka-pojedynczo-na-bialym-tle-wektor-zestaw-ikon-broni-i-broni-palnej-vol-2-400-151612664.jpg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "bad4": {
-        text: "",
-        image: "",
+        text: "Ed Sheeran got angry and killed the person John Pork was looking for. So then u walk home and John pork kills you. And just before you die he whispers to you 'you are a bumbahole' ",
+        image: "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/fc/3051160-poster-p-1-this-companion-app-lets-a-friend-virtually-walk-you-home-at-night.jpg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "true": {
-        text: "",
-        image: "",
+        text: "You save his family and it turns out he is a billionaire so he protects you for the rest of his life so John Pork cant kill u. ",
+        image: "https://media.npr.org/assets/img/2015/10/16/pork_custom-a8c4aa18a06dd590f3d8a57e677edc09c046f68e.jpg?s=1100&c=85&f=jpeg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "true1": {
-        text: "",
-        image: "",
+        text: "Its a cliffhangr of course you are not menat to know, silly boy you thought.",
+        image: "https://avantecture.com/wp-content/uploads/2023/08/CLIFFHANGER-1.jpg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
 
     "good": {
-        text: "",
-        image: "",
+        text: "U played the guitar and ed sheeran dies. You go return the thing john pork asked for and he gives a billion pound. ",
+        image: "https://timandjulieharris.com/wp-content/uploads/2019/10/rich-people.jpg",
         buttons: [
             {
-                text: "",
-                id: ""
+                text: "The End ",
+                id: "first"
             },
             {
-                text1: "",
-                id1: ""
+                text1: "Click here to play again",
+                id1: "first"
             }
         ]
     },
