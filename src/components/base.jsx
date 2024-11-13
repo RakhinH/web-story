@@ -26,18 +26,19 @@ const Story = () => {
             of the box of the background
              */}
             
-            <div style={{backgroundImage: `url(${current.image})`}} className={"flex flex-col bg-no-repeat bg-contain text-2xl font-sans gap-4 justify-center items-center bg-center w-full h-screen"}>
+            <div style={{backgroundImage: `url(${current.image})`}} className={"flex flex-col bg-no-repeat bg-cover text-2xl font-sans gap-4 justify-center items-center bg-center w-full h-screen"}>
                 <div className="flex flex-col font-black border-2 border-dotted rounded-lg gap-4 w-2/3 opacity-90 justify-center items-center box-decoration-slice bg-gradient-to-r from-[#00E5F5] to-[#F58E00] text-black px-2 w-45 container-fliud">
                     <p>{current.text}</p>
                 </div>
 
-                {/* Buttons for the story */}  
+                {/* Buttons for the story option 1*/}  
                 <div className="flex flex-col border-solid border-2 border-blue-50 rounded-lg w-fit p-2 box-decoration-slice bg-gradient-to-r from-[#00E5F5] to-[#ED8B47]">
                     {current.buttons.map((b) => (
                         <Link to={"/story/" + b.id}>{b.text}</Link>
                     ))}
                 </div>
-
+                
+                {/* Buttons for the story option 2*/}  
                 <div className="flex flex-col border-solid border-2 border-blue-50 rounded-lg w-fit p-2 box-decoration-slice bg-gradient-to-r from-[#00E5F5] to-[#ED8B47] hover:bg-fuchsia-600">
                     <div className="hover:">
                         {current.buttons.map((b) => (
