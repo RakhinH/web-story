@@ -157,6 +157,7 @@ export const story = {
 
     // the different endings are below
 
+
     // Spelling checked: Done
     // Code Working: Yes 
     "bad": {
@@ -279,7 +280,7 @@ export const story = {
     // Spelling checked: Done
     // Code Working: Yes 
     "good": {
-        text: "You played the guitar and ed sheeran dies. You go return the thing john pork asked for and he gives a billion pound. ",
+        text: "You played the guitar and ed sheeran dies. You go return the thing Elon Musk daughter asked for and he gives a billion pound. ",
         image: "https://timandjulieharris.com/wp-content/uploads/2019/10/rich-people.jpg",
         buttons: [
             {
